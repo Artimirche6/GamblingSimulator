@@ -5,21 +5,22 @@ public class Gambler
 		int amount = 100;
 		int betAmount = 1;
 		int day, newAmount  = 0;
+		
 		System.out.println("Gambler initial amount $" +amount);
 		System.out.println("Gambler can bet $" +betAmount+ " every game");
 		System.out.println();
 		
 		//System.out.println("Bet value is 1 then WON else LOSS");
 
-		for (day = 1; day <= 10; day++)
+		for (day = 1; day <= 20; day++)
 		{
 			newAmount = newAmount + 100;
 			System.out.println("Gambler amount(+$100) $" +newAmount+ " for day " +day);
 			amount = newAmount;
 			
-			System.out.println("New Amount $" +newAmount);
-			System.out.println("Exit after half of the New Amount $" +amount/2);
-			System.out.println("Exit after double of the New Amount $" +amount*2);
+			//System.out.println("New Amount $" +newAmount);
+			//System.out.println("Exit after half of the New Amount $" +amount/2);
+			//System.out.println("Exit after double of the New Amount $" +amount*2);
 				
 		
 			while (true)
