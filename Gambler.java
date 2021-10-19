@@ -3,7 +3,11 @@ public class Gambler
 	public static void main(String[] args)
 	{	
 	
-		System.out.println("Welcome to Gambler Simulation Problem");
+		int amount = 100;
+		int bet = 1;
+		
+		System.out.println("Gambler initial amount $" +amount);
+		System.out.println("Gambler can bet $" +bet+ " every game");
 		
 	}
 }
